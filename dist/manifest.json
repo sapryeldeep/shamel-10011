@@ -1,0 +1,19 @@
+{
+  "name": "شامل للمستشفيات",
+  "short_name": "شامل ERP",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "description": "منصة شامل لإدارة المستشفيات والعيادات والمراكز الطبية",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3063/3063206.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
