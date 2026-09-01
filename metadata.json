@@ -1,0 +1,6 @@
+{
+  "name": "شامل للمستشفيات والعيادات - ERP",
+  "description": "منصة سحابية متكاملة لإدارة المستشفيات والعيادات والمراكز الطبية (ERP طبي)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
