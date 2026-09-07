@@ -1,11 +1,12 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import { defineConfig } from 'vite';
 
-export default defineConfig(() => {
+export default defineConfig(({ command }) => {
   return {
-    base: './',
+    // بيختار المسار الصح تلقائياً: لو بنرفع لجيت هاب يحط اسم المستودع، ولو ديسكتوب يسيبه نسبي
+    base: process.env.GITHUB_ACTIONS ? '/shamel-10011/' : './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
@@ -19,4 +20,3 @@ export default defineConfig(() => {
     },
   };
 });
-
