@@ -5,7 +5,6 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(({ command }) => {
   return {
-    // بيختار المسار الصح تلقائياً: لو بنرفع لجيت هاب يحط اسم المستودع، ولو ديسكتوب يسيبه نسبي
     base: process.env.GITHUB_ACTIONS ? '/shamel-10011/' : './',
     plugins: [react(), tailwindcss()],
     resolve: {
